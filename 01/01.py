@@ -29,6 +29,6 @@ def total_salary(path):
 
 
 
-total, average = total_salary("files/01_salaries.txt")
+total, average = total_salary("01_salaries.txt")
 if total is not None and average is not None:
     print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
